@@ -301,6 +301,10 @@ article#accomodation {
 #aside .cardAside {
   margin: auto;
 }
+#aside .cardAside a {
+  text-decoration: none;
+  color: black;
+}
 #aside .cardAside2 {
   width: 350px;
   margin-left: 20px;
