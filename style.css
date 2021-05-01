@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 #containerPage {
-  width: 100%;
+  width: 90%;
   margin: auto;
   height: 100vh;
   display: grid;
@@ -242,6 +242,7 @@ article#accomodation {
   flex-wrap: wrap;
   justify-content: center;
   width: 98%;
+  padding-left: 20px;
 }
 #accomodation .boxCards1 a {
   color: black;
@@ -260,7 +261,7 @@ article#accomodation {
 }
 #accomodation .boxCard1 img {
   height: 114px;
-  width: 250px;
+  width: 230px;
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -324,7 +325,6 @@ article#accomodation {
 #aside .cardAside2 a {
   color: black;
 }
-
 #aside .imgCard2 img {
   object-fit: cover;
   width: 199px;
@@ -332,7 +332,6 @@ article#accomodation {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-
 #aside .textCard2 {
   margin-left: 14px;
 }
@@ -347,14 +346,14 @@ article.activity {
 }
 #activity .cardsActivity {
   display: flex;
-  justify-content: space-evenly;
   margin: auto;
-}
-#activity .cardsActivity a {
-  color: black;
+  justify-content: space-evenly;
 }
 #activity .cardActivity {
   margin-bottom: 60px;
+}
+#activity .cardActivity a {
+  color: black;
 }
 #activity .card1 {
   background-color: white;
