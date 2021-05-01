@@ -320,6 +320,7 @@ article#accomodation {
 #aside .cardAside2 a {
   color: black;
 }
+
 #aside .imgCard2 img {
   object-fit: cover;
   width: 199px;
@@ -327,6 +328,7 @@ article#accomodation {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
+
 #aside .textCard2 {
   margin-left: 14px;
 }
