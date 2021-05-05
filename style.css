@@ -474,13 +474,28 @@ footer {
 /* Format Big Size Tablet */
 @media screen and (min-width: 1050px) and (max-width: 1180px) {
   #containerPage {
-    width: 90%;
-  }
-  #accomodation .boxCard1 img {
-    width: 250px;
+    width: %;
   }
   #activity .cardActivity {
     padding-right: 20px;
+  }
+  #activity .imgCardLarge1 {
+    width: 275px;
+  }
+  #activity .imgCardMedium1 {
+    width: 275px;
+  }
+  #activity .imgCardSmall1 {
+    width: 275px;
+  }
+  #activity .imgCardLarge2 {
+    width: 275px;
+  }
+  #activity .imgCardMedium2 {
+    width: 275px;
+  }
+  #activity .imgCardSmall2 {
+    width: 275px;
   }
 }
 /* Format Litle Size Tablet */
@@ -506,6 +521,27 @@ footer {
   }
   #activity .cardActivity {
     margin-right: 20px;
+  }
+  #activity .cardActivity {
+    margin: 10px;
+  }
+  #activity .imgCardLarge1 {
+    width: 275px;
+  }
+  #activity .imgCardMedium1 {
+    width: 275px;
+  }
+  #activity .imgCardSmall1 {
+    width: 275px;
+  }
+  #activity .imgCardLarge2 {
+    width: 275px;
+  }
+  #activity .imgCardMedium2 {
+    width: 275px;
+  }
+  #activity .imgCardSmall2 {
+    width: 275px;
   }
 }
 /* Format Size Mobil */
