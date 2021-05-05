@@ -41,17 +41,14 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
-
 .nav1 img {
   margin-top: 20px;
   margin-bottom: 15px;
   height: 40px;
 }
-
 .nav2 {
   flex-grow: 1;
 }
-
 .nav3 {
   order: 1;
 }
@@ -92,6 +89,10 @@ main {
 #main .titleMain h1 {
   margin-top: 14px;
   font-size: 20px;
+}
+#main .pTitle {
+  margin-top: -20px;
+  padding-bottom: 20px;
 }
 .form form {
   display: flex;
@@ -436,7 +437,7 @@ footer {
   color: black;
 }
 #menu .menu1 a:hover {
-  color: red;
+  color: var(--colorBlue);
 }
 .menu1 li {
   padding: 5px;
@@ -452,7 +453,7 @@ footer {
   color: black;
 }
 #menu .menu2 a:hover {
-  color: red;
+  color: var(--colorBlue);
 }
 .blocFooter h2 {
   margin-left: 35px;
@@ -465,15 +466,21 @@ footer {
   color: black;
 }
 #menu .menu3 a:hover {
-  color: red;
+  color: var(--colorBlue);
 }
 .menu3 li {
   padding: 5px;
 }
 /* Format Big Size Tablet */
 @media screen and (min-width: 1050px) and (max-width: 1180px) {
+  #containerPage {
+    width: 90%;
+  }
   #accomodation .boxCard1 img {
     width: 250px;
+  }
+  #activity .cardActivity {
+    padding-right: 20px;
   }
 }
 /* Format Litle Size Tablet */
@@ -497,6 +504,9 @@ footer {
   #aside .cardAside2 {
     max-width: 400px;
   }
+  #activity .cardActivity {
+    margin-right: 20px;
+  }
 }
 /* Format Size Mobil */
 @media screen and (max-width: 619px) {
@@ -514,15 +524,26 @@ footer {
   header {
     flex-wrap: wrap;
   }
+  .nav1 img {
+    padding-left: 20px;
+  }
   .nav2 {
     min-width: 100px;
     flex-grow: 1;
+  }
+  .nav2 a:hover {
+    border-bottom: 3px solid var(--colorBlue);
+    border-top-style: none;
   }
   .nav3 {
     order: 0;
   }
   .nav4 {
     flex-grow: 1;
+  }
+  .nav4 a:hover {
+    border-bottom: 3px solid var(--colorBlue);
+    border-top-style: none;
   }
   .nav4 ul li:first-child {
     margin-right: 100px;
@@ -533,8 +554,17 @@ footer {
   #main .titleMain {
     display: grid;
   }
+  #main .titleMain h1:first-child {
+    margin-bottom: -20px;
+  }
   #main .titleMain h1 {
     font-size: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  #main .pTitle {
+    padding-top: 10px;
+    padding-left: 20px;
   }
   #main p {
     font-size: 20px;
@@ -553,8 +583,14 @@ footer {
   #filters p {
     margin-left: 20px;
   }
+  #main .infos {
+    padding-left: 20px;
+  }
+  #aside {
+    width: 99%;
+  }
   #aside .cardAside {
-    padding-left: 50px;
+    padding-left: 38px;
   }
   #aside .cardAside2 img {
     width: 190px;
@@ -565,9 +601,8 @@ footer {
   article#accomodation {
     background-color: white;
   }
-  #accomodation .boxCards1 {
-    width: 100%;
-    padding-left: 39px;
+  #accomodation {
+    width: 97%;
   }
   #accomodation .boxCard1 img {
     height: 129px;
@@ -605,7 +640,6 @@ footer {
   }
   #menu {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
   }
 }
